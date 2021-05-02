@@ -92,34 +92,45 @@ section {
 }
 
 /* HERO STYLE STARTS HERE */
-.hero img {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
-}
 
 .hero {
-  background-image: 
+  background-image: url("../images/background3.jpg");
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   flex-wrap: wrap;
   align-items: flex-start;
   background-attachment: fixed;
-  background-position: 80%;
+  background-position: center;
 }
-.hero-am {
-  width: 35%;
-  text-align: left;
-  margin: 3.5%;
+
+.hero-intro {
+  width: 90%;
   color: #db7093;
+  font-size: 30px;
+  display:flex;
+  align-self: center;
+}
+
+.hero-intro p {
+  font-style: italic;
   font-size: 18px;
-  line-height: 1.2;
+  color: #db7093;
+  display:flex;
+  align-self:center;
+  padding-left: 80px;
+  
 }
 
 
 /*BORDER STYLES*/
 
-.primary-border {}
+.primary-border {
+  color:#db7093
+}
+.section-border {
+  color:#db7093
+}
+.flex-row {
+  display:flex;
+}
