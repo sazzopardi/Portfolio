@@ -17,7 +17,7 @@ header {
   position: sticky;
   position:-webkit-sticky;
   top: 0;
-  background-image: url("../images/Website-Design-Background.png");
+  background-image: url("../images/background2.jpg");
   background size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -48,7 +48,7 @@ header nav ul {
   list-style: none;
 }
 header nav ul li a {
-  margin: 0 30px;
+  padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
 }
@@ -92,9 +92,16 @@ section {
 }
 
 /* HERO STYLE STARTS HERE */
+.hero img {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
 
 .hero {
-  background-image: url("../images/Website-Design-Background.png");
+  background-image: 
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -103,7 +110,7 @@ section {
   background-attachment: fixed;
   background-position: 80%;
 }
-.hero am {
+.hero-am {
   width: 35%;
   text-align: left;
   margin: 3.5%;
