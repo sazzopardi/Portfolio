@@ -94,43 +94,30 @@ section {
 /* HERO STYLE STARTS HERE */
 
 .hero {
-  background-image: url("../images/background3.jpg");
-  background-size: cover;
+  background-image: url("../images/Profile-image.jpg");
+  background-size:auto;
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items:baseline;
   background-attachment: fixed;
   background-position: center;
+  padding-bottom: 40%;
+  
+  
 }
 
 .hero-intro {
-  width: 90%;
   color: #db7093;
-  font-size: 30px;
+  font-size: 18px;
   display:flex;
-  align-self: center;
+  align-self:baseline;
+  font-style: italic;
+  font-weight: lighter;
 }
 
-.hero-intro p {
-  font-style: italic;
-  font-size: 18px;
-  color: #db7093;
-  display:flex;
-  align-self:center;
-  padding-left: 80px;
-  
-}
 
 
 /*BORDER STYLES*/
 
-.primary-border {
-  color:#db7093
-}
-.section-border {
-  color:#db7093
-}
-.flex-row {
-  display:flex;
-}
+
