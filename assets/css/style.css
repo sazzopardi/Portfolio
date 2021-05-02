@@ -44,3 +44,35 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 1.55vw;
 }
+
+/* END HEADER STYLES HERE */
+
+/*ADD FOOTER STYLE HERE*/
+footer {
+  background: #fff0f5;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color: #db7093;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+/* MAY NOT HAVE FOOTER A HERE, but placing incase I decide to add anchor*/
+/* TAKE OUR ANCHOR IF NECESSARY, would like to add a nav bar here */
+
+footer a {
+  color: #db7093;
+}
+
+/* END FOOTER STYLE HERE */
