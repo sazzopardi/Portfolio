@@ -122,6 +122,80 @@ section {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/*section styles begin*/
+.section-title {
+  font-size: 35px;
+  border-bottom: 3px solid;
+  color:#cc1c56;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
+
+
+.primary-border {
+  border-color: #cc1c56;
+}
+
+.secondary-border {
+  border-color:#db7093;
+}
+.flex-row { 
+  display: flex;
+}
+/* SECTION TITLE STYLES END */
+
+/* ABOUT ME STYLES */
+.intro p {
+  line-height: 2;
+  color: #708090;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+
+  /* my work styles */
+  
+
+
+
+  /* contact styles */
+  .contact {
+    background: var(--secondary-color);
+  }
+  
+  .contact h2 {
+    color: var(--primary-color);
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+  
+  
+  .contact-info div {
+    color: white;
+  }
+  
+  .contact-info h3 {
+    color: var(--primary-color);
+    font-size: 32px;
+  }
+  
+  .contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+  }
 
 
 /*BORDER STYLES*/
