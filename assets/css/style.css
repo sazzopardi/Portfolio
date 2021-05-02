@@ -14,6 +14,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
+  position:-webkit-sticky;
+  top: 0;
+  background-image: url("../images/Website-Design-Background.png");
+  background size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
 }
 header h1 {
   font-weight: bold;
@@ -76,3 +84,35 @@ footer a {
 }
 
 /* END FOOTER STYLE HERE */
+
+/* STYLE ALL SECTION HERE, CSS takes the most recent style and applie it first*/
+
+section {
+  padding: 60px;
+}
+
+/* HERO STYLE STARTS HERE */
+
+.hero {
+  background-image: url("../images/Website-Design-Background.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+}
+.hero am {
+  width: 35%;
+  text-align: left;
+  margin: 3.5%;
+  color: #db7093;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+
+/*BORDER STYLES*/
+
+.primary-border {}
