@@ -7,7 +7,7 @@ A website that showcases my work and education.
 * CSS/ADVANCED CSS
 
 ## Website
-https://github.com/sazzopardi/Portfolio.git
+https://sazzopardi.github.io/Portfolio/
 
 
 ## Contribution 
