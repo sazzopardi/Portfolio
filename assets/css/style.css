@@ -6,7 +6,7 @@
 /*CHANGE COLOR SCHEME*/
 body {
   color: #db7093;
-  
+
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 header {
@@ -78,7 +78,7 @@ footer {
 
 footer h2 {
   color: #c27e95;
-  opacity:0.6;
+  opacity: 0.6;
   font-size: 20px;
   margin: 0;
   font-style: italic;
@@ -218,7 +218,7 @@ section {
 /* CONTACT STYLE */
 
 .contact {
-  background:#ecb9ca;
+  background: #ecb9ca;
   opacity: 1;
 }
 
@@ -254,5 +254,3 @@ section {
   font-style: normal;
 }
 /* END CONTACT STYLES*/
-
-*BORDER STYLES*/
