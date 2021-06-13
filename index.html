@@ -22,7 +22,10 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css"/>
+   
   </head>
   <body>
       <div class="jumbotron">
@@ -41,9 +44,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
+          <li class="nav-item">
+            <a class="nav-link" href="#home"
+              >About me! <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
@@ -66,14 +69,11 @@
         <!-- Create Hero section for portfolio picture this entire section will get a class name"hero"-->
         <!-- HERO Div for anything with the picture div class hero maybe a belief or quote-->
         <!--end hero-->
-        <div class="container-fluid" id="home">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
-                   <h1 class="section-title secondary-border">About Me</h1> 
-                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                    Dolores fugiat quasi numquam possimus ullam deleniti natus optio 
-                    recusandae, 
-                    eligendi atque nisi alias velit iste, ab aut omnis a! Ut, quod?</p>
+                <div class="col-lg-6 large">
+                   <h1 class="large">My name is Sarah.</h1> 
+                   <h1>I'm a Full-Stack Developer.</h1>
 
                 </div>
                 <div class="col-lg-6">
@@ -84,51 +84,36 @@
 
 
         <!--ABOUT ME SECTION-->
-        
-        
-        <section id="Home" class="intro">
-            <h2 class="section-title secondary-border">About Me</h2>
+        <p class="section-title section-border" id="home">About Me!</p>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
 
-            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Dolores fugiat quasi numquam possimus ullam deleniti natus optio 
-                recusandae, 
-                eligendi atque nisi alias velit iste, ab aut omnis a! Ut, quod?</P>
-
-        </section>
-        <!--END About me section/ADD SECTION ID-->
-
-        <!--Education and training section-->
-        <container>
-        <section id="education" class="intro">
-            <h2 class="section-title secondary-border">Education and Training</h2>
-
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Obcaecati quaerat quasi velit modi recusandae rerum pariatur fugit, 
-                consectetur in dolor ut eaque dicta iusto. 
-                Soluta assumenda necessitatibus placeat totam neque!
-            </p>
-
-        </section>
-        </container>
-       
-        <!--END Education and Training-->
-        
+<!--Education and training section-->
+<p class="section-title section-border" id="education">Education</p>
+<button type="button" class="collapsible">Open Collapsible</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
 
 
-        <!--My work section-->
-
-        <!-- SHOWCASE DIFFERENT DIVS FOR each type of work with pictures -->
-        <container>
+<!--My work section-->
+<container>
         <section id="features">
             <div class="flex-row">
-                <h2 class="section-title primary-border">Features</h2>
+                <h2 class="section-title section-border">Features</h2>
             </div>
             
             
             <div class="projects">
                 <article class="project">
                     <a href="https://github.com/uoftgroup7/mealThyme.git" target="_blank">
-                <img src="assets/images/front-end-developer.jpg" class="zoom" alt="computer open and on with visible webpage">
+                <img src="assets/images/projectone.png" class="zoom" alt="computer open and on with visible webpage">
                     </a>
                 <div class="project-info">
                 <h3 class="project-info secondary-border">Front End Project</h3>
@@ -193,7 +178,7 @@
         </footer>
         <!--END FOOTER-->
         <!--add anchors on the footer to take the visitor to different areas on mypage?-->
-        
+        <script src="assets/script.js"></script> 
     </body>
     </html>
     
