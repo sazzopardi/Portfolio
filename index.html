@@ -1,57 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Portfolio Page</title>
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- BOOTSTRAP CSS-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    </head>
-    <body>
-        <!--Navigation-->
-        <header>
-            <h1>
-                <!--CHANGE TITLE-->
-                <a href="/">Professional Portfolio</a>
-            </h1>
-            <!-- ADD NAVIGATION TO DIFFERENT SECTIONS OF MY PAGE-->
-            <nav>
-                <!--LI should be each section that is highlighted-->
-                <ul>
-                    <!-- LI should have anchor to each item-->
-                    <li>
-                        <a href="#about-me">About Me</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>HomePage</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+  <body>
+      <div class="jumbotron">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light " id="navbar">
+      <a class="navbar-brand" href="#Home">Sarah Azzopardi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education and Training</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div>
+  <!-- END NAVIGATION -->
 
-                    </li>
-                    <li>
-                        <a href="#education-and-training">Education and Training</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#contact-information">Contact Information</a>
-                    </li>
-                </ul>
-
-            </nav>
-            <!--END NAV-->
-        </header>
-
-        <section class="hero">
-            <div class="hero-intro h2">
-                <h2>Welcome to my <br/>
-            professional portfolio</h2>
+        
                 
-                </div>
-                </section>
         <!-- Create Hero section for portfolio picture this entire section will get a class name"hero"-->
         <!-- HERO Div for anything with the picture div class hero maybe a belief or quote-->
         <!--end hero-->
+        <div class="container-fluid" id="home">
+            <div class="row">
+                <div class="col-lg-6">
+                   <h1 class="section-title secondary-border">About Me</h1> 
+                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Dolores fugiat quasi numquam possimus ullam deleniti natus optio 
+                    recusandae, 
+                    eligendi atque nisi alias velit iste, ab aut omnis a! Ut, quod?</p>
+
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-responsive" src="assets/images/newprofpic.jpg"/>
+                </div>
+            </div>
+        </div>
 
 
         <!--ABOUT ME SECTION-->
-        <section id="about-me" class="intro">
+        
+        
+        <section id="Home" class="intro">
             <h2 class="section-title secondary-border">About Me</h2>
 
             <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -63,7 +98,8 @@
         <!--END About me section/ADD SECTION ID-->
 
         <!--Education and training section-->
-        <section id="education-and-training" class="intro">
+        <container>
+        <section id="education" class="intro">
             <h2 class="section-title secondary-border">Education and Training</h2>
 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -73,6 +109,8 @@
             </p>
 
         </section>
+        </container>
+       
         <!--END Education and Training-->
         
 
@@ -80,9 +118,10 @@
         <!--My work section-->
 
         <!-- SHOWCASE DIFFERENT DIVS FOR each type of work with pictures -->
-        <section id="my-work">
+        <container>
+        <section id="features">
             <div class="flex-row">
-                <h2 class="section-title primary-border">My Work</h2>
+                <h2 class="section-title primary-border">Features</h2>
             </div>
             
             
@@ -119,11 +158,13 @@
         </article>
 
         </section>
+        </container>
         <!--END my work section-->
         
 
 
         <!--Contact information-->
+        <container>
         <section id="contact-information" class="contact">
             <div class="flex-row">
             <h2 class="section-title secondary-border">Contact Information</h2>
@@ -142,6 +183,7 @@
         </div>
 
         </section>
+        </container>
         <!--END my contact info-->
 
 
@@ -154,3 +196,4 @@
         
     </body>
     </html>
+    
