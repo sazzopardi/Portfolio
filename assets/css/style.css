@@ -19,10 +19,10 @@ body {
   padding: 10% 10% 0 10%;
 }
 .collapsible {
-  background-color: #777;
+  background-color: rgb(212, 199, 199);
   color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 40px;
   width: 100%;
   border: none;
   text-align: left;
@@ -32,14 +32,14 @@ body {
 
 .active,
 .collapsible:hover {
-  background-color: #555;
+  background-color: rgb(212, 199, 199);
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 
 /*ADD FOOTER STYLE HERE*/
@@ -63,9 +63,6 @@ footer {
   font-style: italic;
 }
 
-/* MAY NOT HAVE FOOTER A HERE, but placing incase I decide to add anchor*/
-/* TAKE OUR ANCHOR IF NECESSARY, would like to add a nav bar here */
-
 footer a {
   color: #db7093;
   opacity: 0.6;
@@ -81,37 +78,16 @@ footer a {
 
 .section-title {
   font-size: 48px;
-  border-bottom: 3px solid;
   color: #555;
   opacity: 0.6;
-  padding-bottom: 20px;
-  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-top: 90px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
 }
 
-.primary-border {
-  border-color: #cc1c56;
-}
-
-.secondary-border {
-  border-color: #db7093;
-}
-
-/* SECTION TITLE STYLES END */
-
-/* ABOUT ME STYLES */
-.intro p {
-  line-height: 2;
-  color: #708090;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* my work styles */
+/*           FEATURE PROJECT styles              */
 
 .projects {
   width: 100%;
@@ -124,8 +100,7 @@ footer a {
 .project {
   margin: 20px;
   flex: 1;
-  background: #c27e95;
-  opacity: 1;
+  background: #9c9a9b;
   color: #2f4f4f;
 }
 
@@ -134,7 +109,6 @@ footer a {
 }
 .zoom {
   padding: 50px;
-
   transition: transform 0.2s;
   width: 200px;
   height: 200px;
