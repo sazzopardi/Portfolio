@@ -91,22 +91,32 @@ footer a {
 
 .projects {
   width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-content: space-between;
+  margin: 2rem;
 }
 
 .project {
-  margin: 20px;
-  flex: 1;
-  background: #9c9a9b;
   color: #2f4f4f;
 }
-
-.project img {
-  width: 100%;
+/*.project-info {
+  padding: 25px;
+  line-height: 1;
 }
+
+.project-info h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+.project-info p {
+  font-size: 17px;
+  text-align: center;
+} */
+
 .zoom {
   padding: 50px;
   transition: transform 0.2s;
@@ -121,7 +131,7 @@ footer a {
   transform: scale(1.5);
 }
 
-.project-info {
+.info {
   padding: 25px;
   line-height: 1;
 }
