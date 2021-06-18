@@ -11,7 +11,6 @@ body {
   max-width: 100%;
   height: auto;
   padding-top: 0%;
-  padding-right: 5%;
 }
 .large {
   font-family: "Raleway", sans-serif;
@@ -41,7 +40,10 @@ body {
   overflow: hidden;
   background-color: white;
 }
-
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+}
 /*ADD FOOTER STYLE HERE*/
 footer {
   padding: 20px 35px;
