@@ -51,23 +51,7 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
-  background-image: url("../images/background2.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-}
-
-.footer h2 {
-  color: #c27e95;
-  opacity: 0.6;
-  font-size: 20px;
-  margin: 0;
-  font-style: italic;
-}
-
-footer a {
-  color: #db7093;
-  opacity: 0.6;
+  background-color: #464340;
 }
 
 /* END FOOTER STYLE HERE */
@@ -97,27 +81,8 @@ footer a {
   flex-wrap: wrap;
   align-content: space-between;
   margin: 2rem;
-}
-
-.project {
   color: #2f4f4f;
 }
-/*.project-info {
-  padding: 25px;
-  line-height: 1;
-}
-
-.project-info h3 {
-  font-size: 30px;
-  margin-bottom: 15px;
-  text-align: center;
-  font-style: italic;
-}
-
-.project-info p {
-  font-size: 17px;
-  text-align: center;
-} */
 
 .zoom {
   padding: 50px;
@@ -133,7 +98,7 @@ footer a {
   transform: scale(1.5);
 }
 
-.info {
+/* .info {
   padding: 25px;
   line-height: 1;
 }
@@ -148,7 +113,7 @@ footer a {
 .project-info p {
   font-size: 17px;
   text-align: center;
-}
+} */
 /* CONTACT STYLE */
 
 .contact {
