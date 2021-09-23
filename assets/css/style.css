@@ -3,64 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*CHANGE COLOR SCHEME*/
 body {
-  color: #db7093;
+  color: #708090;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-header {
-  padding: 20px 35px;
-  background-color: #db7093;
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  padding-top: 0%;
+}
+.large {
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  padding: 10% 10% 0 10%;
+}
+.collapsible {
+  background-color: rgb(212, 199, 199);
+  color: white;
+  cursor: pointer;
+  padding: 40px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: rgb(212, 199, 199);
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+}
+.rows {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  background-image: url("../images/background2.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-  z-index: 9999;
 }
-header h1 {
-  font-weight: bold;
-  font-size: 36px;
-  color: #db7093;
-  margin: 0;
-}
-/* CHANGE COLOR SCHEME*/
-header a {
-  text-decoration: none;
-  color: #db7093;
-}
-/*change dimensions */
-
-header nav {
-  margin: 7px 0;
-}
-
-header nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
-}
-header nav ul li a {
-  padding: 10px 15px;
-  font-weight: lighter;
-  font-size: 1.55vw;
-}
-header nav ul li a:hover {
-  background: #cc1c56;
-  color: #db7093;
-  border-radius: 15px;
-  text-shadow: none;
-}
-
-/* END HEADER STYLES HERE */
-
 /*ADD FOOTER STYLE HERE*/
 footer {
   padding: 20px 35px;
@@ -68,115 +51,41 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
-  background-image: url("../images/background2.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: 80%;
-}
-
-footer h2 {
-  color: #c27e95;
-  font-size: 20px;
-  margin: 0;
-  font-style: italic;
-}
-
-/* MAY NOT HAVE FOOTER A HERE, but placing incase I decide to add anchor*/
-/* TAKE OUR ANCHOR IF NECESSARY, would like to add a nav bar here */
-
-footer a {
-  color: #db7093;
+  background-color: #464340;
 }
 
 /* END FOOTER STYLE HERE */
 
 /* STYLE ALL SECTION HERE, CSS takes the most recent style and applie it first*/
 
-section {
-  padding: 60px;
-}
-
 /* HERO STYLE STARTS HERE */
-
-.hero {
-  background-image: url("../images/Profile-image.jpg");
-  background-size: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-attachment: fixed;
-  background-position: 80%;
-  padding-bottom: 40%;
-  align-items: flex-start;
-}
-
-.hero-intro {
-  width: 90%;
-  text-align: left;
-  margin: 2px;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #2f4f4f;
-  font-size: 35px;
-  line-height: 2;
-  font-style: italic;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
 
 /*section styles begin*/
 
 .section-title {
   font-size: 48px;
-  border-bottom: 3px solid;
-  color: #cc1c56;
-  padding-bottom: 20px;
+  color: #555;
+  opacity: 0.6;
+  padding-bottom: 80px;
+  padding-top: 90px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
 }
 
-.primary-border {
-  border-color: #cc1c56;
-}
-
-.secondary-border {
-  border-color: #db7093;
-}
-
-/* SECTION TITLE STYLES END */
-
-/* ABOUT ME STYLES */
-.intro p {
-  line-height: 2;
-  color: #708090;
-  width: 80%;
-  margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
-}
-
-/* my work styles */
+/*           FEATURE PROJECT styles              */
 
 .projects {
   width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.project {
-  margin: 20px;
-  flex: 1;
-  background: #c27e95;
+  align-content: space-between;
+  margin: 2rem;
   color: #2f4f4f;
 }
 
-.project img {
-  width: 100%;
-}
 .zoom {
   padding: 50px;
-
   transition: transform 0.2s;
   width: 200px;
   height: 200px;
@@ -189,7 +98,7 @@ section {
   transform: scale(1.5);
 }
 
-.project-info {
+/* .info {
   padding: 25px;
   line-height: 1;
 }
@@ -204,11 +113,12 @@ section {
 .project-info p {
   font-size: 17px;
   text-align: center;
-}
+} */
 /* CONTACT STYLE */
 
 .contact {
-  background: #f7c4d5;
+  background: #ecb9ca;
+  opacity: 1;
 }
 
 .contact h2 {
@@ -243,5 +153,3 @@ section {
   font-style: normal;
 }
 /* END CONTACT STYLES*/
-
-/*BORDER STYLES*/
